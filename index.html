@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Bingo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>A jugar!</h1>
+        <form>
+        <table id="carton">
+            <tr>
+                <td><input class="cuadro" id="numero1" type="number"><input type="checkbox" id="casilla1" class="check"></td>
+                <td><input class="cuadro" id="numero2" type="number"><input type="checkbox" id="casilla2" class="check"></td>
+                <td><input class="cuadro" id="numero3" type="number"><input type="checkbox" id="casilla3" class="check"></td>
+            </tr>
+        </table>
+        <input type="button" class="boton" value="Suerte" onclick="numeroLoco();">
+        <button type="reset" class="boton">Again</button>
+        <p>Rellena las casillas con números del 0 al 10 y pulsa en suerte para comenzar a jugar</p>
+        <p>Pulsa Again para empezar a jugar otra vez</p>
+        <p id="resul"></p>
+    </div>
+    <div>
+        <img src="2.gif" alt="piña">
+    </form>
+    </div>
+    <script>
+        function numeroLoco() {
+            var num1 = document.getElementById("numero1").value;
+            var num2 = document.getElementById("numero2").value;
+            var num3 = document.getElementById("numero3").value;
+            var resul = document.getElementById("resul")
+
+            var ficha = Math.floor(Math.random() * 10);
+            resul.innerHTML = "El numero que ha salido es:  " + ficha;
+            /*alert("El numero que ha salido es:  " + ficha);*/
+            if (num1 == ficha) {
+                document.getElementById("casilla1").checked = true
+            }
+
+            if (num2 == ficha) {
+                document.getElementById("casilla2").checked = true
+
+            }
+
+            if (num3 == ficha) {
+                document.getElementById("casilla3").checked = true
+            }
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+body { 
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background:linear-gradient(to bottom, rgb(57, 225, 255), rgb(184, 230, 248));
+    font-size: 25px;
+}
+
+
+
+.cabecera{
+    background: #f442cd;
+    font-size: 25px;
+    width: 100%;
+	padding: 15px;
+}
+.cuadro{
+    font-size: 20px;
+	
+}
+#carton{
+    margin: 0 auto;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    background: #d3d3d3;
+    border-style: dotted;
+    border-color: #f442cd;
+}
+th, td {
+    border: 2.5px solid black;
+    text-align: center;
+}
+
+.boton{
+    margin-top: 10px;
+    font-size:25px;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    background:#ff19c5;
+    border:0px;
+    width:80px;
+    height:50px;
+}
+
+.boton:hover{
+    background:#1969ff;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
