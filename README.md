@@ -1,4 +1,4 @@
-# Chat with socket.io 💻🔄💻
+# Guess the number 💻🔄💻
 _This is a web aplication that guesses random numbers_
 
 ## Built with 🛠️
