@@ -7,4 +7,4 @@ _HTML_
 _CSS_
 
 ## Author 🙋
-_Bárbara Marquina 💥 _
+_Bárbara Marquina 💥_
