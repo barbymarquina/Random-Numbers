@@ -2,9 +2,9 @@
 _This is a web aplication that guesses random numbers_
 
 ## Built with 🛠️
-_Javascript_
-_HTML_ 
-_CSS_
+_Javascript__
+_HTML__
+_CSS__
 
 ## Author 🙋
 _Bárbara Marquina 💥_
